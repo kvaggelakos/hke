@@ -10,8 +10,8 @@ message(src: ${SRC_FILES})
 
 # Find libraries
 include(FindPkgConfig)
-pkg_check_modules(LIBUSB REQUIRED libusb-1.0)
+pkg_check_modules(LIBEV REQUIRED libevdev)
 
 add_executable(${PROJECT_NAME} ${SRC_FILES})
-target_include_directories(${PROJECT_NAME} PUBLIC ${LIBUSB_INCLUDES})
-target_link_libraries(${PROJECT_NAME} ${LIBUSB_LIBRARIES})
+target_include_directories(${PROJECT_NAME} PUBLIC ${LIBEV_INCLUDES})
+target_link_libraries(${PROJECT_NAME} ${LIBEV_LIBRARIES})
