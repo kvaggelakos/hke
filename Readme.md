@@ -3,5 +3,5 @@
 ## Install deps
 
 ```
-sudo apt install libusb-dev
+sudo apt install libevdev-dev
 ```
