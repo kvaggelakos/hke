@@ -2,6 +2,9 @@
 This utility helps re-bind keys on your keyboard. My use case was to swap Caps Lock with Esc.
 There are many other ways to do this, but none that work between plugging in and out your keyboard.
 
+
+*Note*: It only allows for one key rebinding right now
+
 ## Install deps
 
 ```
